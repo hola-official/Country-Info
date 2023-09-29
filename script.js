@@ -1,8 +1,6 @@
 const result = document.getElementById("result");
 const btn = document.getElementById("search-btn");
 
-// console.log(url);
-
 btn.addEventListener("click", () => {
     let inputWord = document.getElementById("input-word").value;
 
@@ -30,7 +28,7 @@ btn.addEventListener("click", () => {
             <div class="details">
                 <p>Capital:<span> ${data[0].capital[0]}</span></p>
                 <p>Continent:<span> ${data[0].continents[0]}</span></p>
-                <p>Population:<span> ${(data[0].population)}</span></p>
+                <p>Population:<span> ${(data[0].population).toLocaleString()}</span></p>
                 <p>Currencies:<span>  ${currencies[0]}</span></p>
                 <p>Language:<span> ${languages[0]}</span></p>
             </div>

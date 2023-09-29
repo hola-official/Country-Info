@@ -14,7 +14,7 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--main-color);
   height: 100vh;
 }
 
@@ -26,7 +26,7 @@ body {
   width: 85vmin;
   padding: 60px 40px;
   border-radius: 10px;
-  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.3);
+  box-shadow: 0 20px 40px rgba(36, 6, 168, 0.619);
   background: var(--background);
 }
 
@@ -37,7 +37,7 @@ body {
 
 .search-box input {
   padding: 5px;
-  width: 230px;
+  width: 50%;
   border-bottom: 3px solid var(--main-color);
   font-size: 18px;
 }
@@ -53,38 +53,38 @@ body {
 }
 
 .info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.info  h2 {
-    margin-top: 20px;
+.info h2 {
+  margin-top: 20px;
   font-size: 30px;
   text-align: center;
 }
 
 .info img {
-    margin-top: 30px;
-    width: 250px;
-    align-items: center;
+  margin-top: 30px;
+  width: 250px;
+  align-items: center;
 }
 
-.details{
-    margin-top: 20px;
+.details {
+  margin-top: 20px;
 }
 
-.details p{
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 600;
+.details p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .details span {
-    font-size: 18px;
-    font-weight: 200;
-    color: var(--span-color);
+  font-size: 18px;
+  font-weight: 200;
+  color: var(--span-color);
 }
 
 .error {
