@@ -32,11 +32,11 @@ btn.addEventListener("click", () => {
             </div>
 
             <div class="details">
-                <p>Capital:<span> ${data[0].capital[0]}</span></p>
-                <p>Continent:<span> ${data[0].continents[0]}</span></p>
-                <p>Population:<span> ${data[0].population.toLocaleString()}</span></p>
-                <p>Currencies:<span>  ${currencies[0]}</span></p>
-                <p>Language:<span> ${languages[0]}</span></p>
+                <p><strong>Capital:</strong> ${data[0].capital[0]}</p>
+                <p><strong>Continent:</strong> ${data[0].continents[0]}</p>
+                <p><strong>Population:</strong> ${data[0].population.toLocaleString()}</p>
+                <p><strong>Currencies:</strong> ${currencies[0]}</p>
+                <p><strong>Language:</strong> ${languages[0]}</p>
             </div>
     `;
     })

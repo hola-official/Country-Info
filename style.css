@@ -10,7 +10,7 @@
 :root {
   --main-color: #00abf0;
   --span-color: #4d506f;
-  --background: #fff;
+  --background: #cbc7c7c7;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   padding: 60px 40px;
   border-radius: 10px;
   box-shadow: 0 20px 40px rgba(36, 6, 168, 0.619);
-  background: var(--background);
+  background-color: var(--background);
 }
 
 .search-box {
@@ -38,6 +38,7 @@ body {
 .search-box input {
   padding: 5px;
   width: 50%;
+  background-color: transparent;
   border-bottom: 3px solid var(--main-color);
   font-size: 18px;
 }
@@ -47,7 +48,7 @@ body {
   height: 47px;
   cursor: pointer;
   font-size: 18px;
-  color: var(--background);
+  color: #1c1c1c;
   border-radius: 20px;
   background: var(--main-color);
 }
@@ -63,7 +64,7 @@ body {
   margin-top: 20px;
   font-size: 30px;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .info img {
@@ -79,13 +80,7 @@ body {
 .details p {
   margin-top: 10px;
   font-size: 20px;
-  font-weight: 600;
-}
-
-.details span {
-  font-size: 18px;
-  font-weight: 200;
-  color: var(--span-color);
+  font-weight: 400;
 }
 
 .error {
