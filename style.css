@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --main-color: #00abf0;
+  --span-color: #8789a0;
+  --background: #fff;
+}
+
+body {
+  background: var(--background);
+  height: 100vh;
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 85vmin;
+  padding: 60px 40px;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.3);
+  background: var(--background);
+}
+
+.search-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-box input {
+  padding: 5px;
+  width: 230px;
+  border-bottom: 3px solid var(--main-color);
+  font-size: 18px;
+}
+
+.search-box button {
+  width: 100px;
+  height: 47px;
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--background);
+  border-radius: 20px;
+  background: var(--main-color);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info  h2 {
+    margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.info img {
+    margin-top: 30px;
+    width: 250px;
+    align-items: center;
+}
+
+.details{
+    margin-top: 20px;
+}
+
+.details p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.details span {
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--span-color);
+}
+
+.error {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #ff0000;
+}
