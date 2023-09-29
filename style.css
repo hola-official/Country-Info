@@ -9,7 +9,7 @@
 
 :root {
   --main-color: #00abf0;
-  --span-color: #8789a0;
+  --span-color: #4d506f;
   --background: #fff;
 }
 
@@ -63,6 +63,7 @@ body {
   margin-top: 20px;
   font-size: 30px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .info img {
